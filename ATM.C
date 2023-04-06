@@ -13,7 +13,7 @@ void main()
   }
   do
   {
-    printf("\n***Welcome to XYZ Bank ATM Service****\n");
+    printf("\n***Welcome to SIDD Bank ATM Service****\n");
     printf("1. Check Balance\n");
     printf("2. Withdraw Cash\n");
     printf("3. Deposit Cash\n");
@@ -49,7 +49,7 @@ void main()
       printf("YOUR BALANCE IS %lu", amount);
       break;
     case 4:
-      printf("\n THANK YOU FOR USING XYZ Bank ATM");
+      printf("\n THANK YOU FOR USING SIDD Bank ATM");
       break;
     default:
       printf("\n INVALID CHOICE");
@@ -60,5 +60,5 @@ void main()
     if (transaction == 'n' || transaction == 'N')
       k = 1;
   } while (!k);
-  printf("\n\n THANKS FOR USING XYZ Bank ATM SERVICE");
+  printf("\n\n THANKS FOR USING SIDD Bank ATM SERVICE");
 }
